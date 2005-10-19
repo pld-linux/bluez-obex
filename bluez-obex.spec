@@ -15,17 +15,20 @@ URL:		http://bluez.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	bluez-libs-devel >= 2.21
-BuildRequires:	openobex-devel >= 1.0.1-2
 BuildRequires:	libtool
+BuildRequires:	openobex-devel >= 1.0.1-2
 Requires:	bluez-libs >= 2.21
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Bluetooth OBEX utils
+Bluetooth OBEX utils.
+
 The BLUETOOTH trademarks are owned by Bluetooth SIG, Inc., U.S.A.
 
 %description -l pl
-Narzêdzia Bluetooth OBEX
+Narzêdzia Bluetooth OBEX.
+
+Znak towarowy BLUETOOTH nale¿y do Bluetooth SIG, Inc. w USA.
 
 %prep
 %setup -q
@@ -49,5 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog README
+%doc AUTHORS ChangeLog
 %attr(755,root,root) %{_bindir}/*
