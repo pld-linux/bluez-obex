@@ -11,7 +11,7 @@ License:	GPL v2
 Group:		Applications/System
 Source0:	http://gruby.cs.net.pl/~adasi/%{name}-%{version}.tar.gz
 # Source0-md5:	194478cd895da5ec991a9c470f64cc59
-URL:		http://bluez.sourceforge.net/
+URL:		http://www.bluez.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	bluez-libs-devel >= 2.21
