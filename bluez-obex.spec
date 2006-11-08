@@ -16,7 +16,9 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	bluez-libs-devel >= 2.21
 BuildRequires:	libtool
+BuildRequires:	libxml2-devel
 BuildRequires:	openobex-devel >= 1.0.1-2
+BuildRequires:	readline-devel
 Requires:	bluez-libs >= 2.21
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
