@@ -2,7 +2,7 @@
 %define		snapshot	20051017
 
 Summary:	Bluetooth OBEX utilities
-Summary(pl.UTF-8):   Narzędzia Bluetooth OBEX
+Summary(pl.UTF-8):	Narzędzia Bluetooth OBEX
 Name:		bluez-obex
 Version:	0.1.%{snapshot}
 Release:	1
