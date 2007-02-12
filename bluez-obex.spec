@@ -2,7 +2,7 @@
 %define		snapshot	20051017
 
 Summary:	Bluetooth OBEX utilities
-Summary(pl):	Narzêdzia Bluetooth OBEX
+Summary(pl.UTF-8):   NarzÄ™dzia Bluetooth OBEX
 Name:		bluez-obex
 Version:	0.1.%{snapshot}
 Release:	1
@@ -27,10 +27,10 @@ Bluetooth OBEX utils.
 
 The BLUETOOTH trademarks are owned by Bluetooth SIG, Inc., U.S.A.
 
-%description -l pl
-Narzêdzia Bluetooth OBEX.
+%description -l pl.UTF-8
+NarzÄ™dzia Bluetooth OBEX.
 
-Znak towarowy BLUETOOTH nale¿y do Bluetooth SIG, Inc. w USA.
+Znak towarowy BLUETOOTH naleÅ¼y do Bluetooth SIG, Inc. w USA.
 
 %prep
 %setup -q
